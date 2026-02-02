@@ -1,0 +1,19 @@
+{
+  "name": "build-tracker",
+  "version": "1.0.0",
+  "description": "Track nightly builds and their metadata",
+  "main": "index.js",
+  "bin": {
+    "build-tracker": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.3",
+    "commander": "^11.1.0"
+  },
+  "author": "Marvin",
+  "license": "MIT"
+}
